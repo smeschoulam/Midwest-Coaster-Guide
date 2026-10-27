@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Midwest amusement parks including Cedar Point, Kings Island, Holiday World, Six Flags Great America, and Worlds of Fun.">
+  <title>Midwest Amusement Parks | Midwest Coaster Guide</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; color: #243247; line-height: 1.7; }
+    .notice { background: #fff0d7; color: #603d0b; padding: 12px 20px; text-align: center; font-size: 13px; }
+    header { background: #102a43; color: white; text-align: center; padding: 24px 20px; }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { color: #c8d9e8; margin: 6px 0 0; }
+    nav { background: #174b73; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; padding: 12px; }
+    nav a { color: white; text-decoration: none; padding: 9px 14px; border-radius: 5px; font-weight: bold; }
+    nav a:hover, nav a.active { background: #f28c28; }
+    .page-title { background: linear-gradient(135deg, #174b73, #277da8); color: white; text-align: center; padding: 50px 20px; }
+    .page-title h2 { color: white; font-size: 35px; margin: 0; }
+    .page-title p { max-width: 680px; margin: 12px auto 0; }
+    main { max-width: 1000px; margin: auto; padding: 35px 20px; }
+    h2, h3 { color: #123c5d; }
+    .parks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 25px 0; }
+    .park { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 3px 12px rgba(0,0,0,.08); border-top: 5px solid #f28c28; }
+    .park h3 { margin-top: 0; }
+    .location { font-weight: bold; color: #47718f; }
+    .guide { background: #e5eff7; border-radius: 10px; padding: 25px; margin-top: 30px; }
+    .guide li { margin: 8px 0; }
+    a { color: #b85c00; }
+    footer { background: #102a43; color: white; text-align: center; padding: 25px 20px; margin-top: 40px; }
+    footer .notice { margin-top: 20px; }
+    @media (max-width: 700px) {
+      .parks { grid-template-columns: 1fr; }
+      .page-title h2 { font-size: 27px; }
+      header h1 { font-size: 25px; }
+      nav a { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+<header>
+  <h1>Midwest Coaster Guide</h1>
+  <p>Big Thrills. Small Towns. Endless Adventures.</p>
+</header>
+
+<nav aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <a href="best-coasters.html">Best Coasters</a>
+  <a href="trip-planner.html">Trip Planner</a>
+  <a class="active" aria-current="page" href="amusement-parks.html">Amusement Parks</a>
+</nav>
+
+<section class="page-title">
+  <h2>Midwest Amusement Parks</h2>
+  <p>Find your next favorite destination with our guide to some of the region's most exciting amusement parks.</p>
+</section>
+
+<main>
+  <section>
+    <h2>Discover the Midwest's Amusement Park Destinations</h2>
+    <p>From major thrill destinations to parks with a balance of family attractions and exciting coasters, the Midwest offers plenty of options for a memorable getaway.</p>
+    <p>Our fictional Heartland Thrill Co. team selected five parks that represent different types of coaster experiences. Each destination offers something unique for visitors.</p>
+  </section>
+
+  <section class="parks">
+    <article class="park">
+      <h3>Cedar Point</h3>
+      <p class="location">Sandusky, Ohio</p>
+      <p>Cedar Point is a destination for serious coaster enthusiasts. Located along Lake Erie, the park combines towering steel rides, intense launches, and scenic waterfront surroundings.</p>
+      <p><strong>Notable coasters:</strong> Steel Vengeance, Millennium Force, Maverick.</p>
+      <p><strong>Best for:</strong> Visitors who want a full day or more of high-intensity roller coaster experiences.</p>
+    </article>
+
+    <article class="park">
+      <h3>Kings Island</h3>
+      <p class="location">Mason, Ohio</p>
+      <p>Kings Island offers a strong mix of modern steel coasters, classic wooden attractions, and rides suitable for different comfort levels. Its diverse lineup makes it a good option for groups with varied interests.</p>
+      <p><strong>Notable coasters:</strong> The Beast, Diamondback, Orion.</p>
+      <p><strong>Best for:</strong> Families and coaster fans who want variety in one destination.</p>
+    </article>
+
+    <article class="park">
+      <h3>Holiday World</h3>
+      <p class="location">Santa Claus, Indiana</p>
+      <p>Holiday World combines a distinctive holiday theme with highly regarded wooden roller coasters. The park offers an atmosphere that feels different from larger metropolitan amusement parks.</p>
+      <p><strong>Notable coasters:</strong> The Voyage, Thunderbird, The Raven.</p>
+      <p><strong>Best for:</strong> Wooden coaster enthusiasts and families looking for a themed park experience.</p>
+    </article>
+
+    <article class="park">
+      <h3>Six Flags Great America</h3>
+      <p class="location">Gurnee, Illinois</p>
+      <p>Located between Chicago and Milwaukee, Six Flags Great America is a convenient amusement park destination for visitors exploring the Great Lakes region. Its ride lineup includes several different coaster styles.</p>
+      <p><strong>Notable coasters:</strong> Goliath, Raging Bull, Maxx Force.</p>
+      <p><strong>Best for:</strong> Chicago-area visitors and fans of diverse thrill rides.</p>
+    </article>
+
+    <article class="park">
+      <h3>Worlds of Fun</h3>
+      <p class="location">Kansas City, Missouri</p>
+      <p>Worlds of Fun provides a combination of roller coasters and traditional amusement park attractions. Its location makes it a useful stop for travelers planning a coaster trip through the western Midwest.</p>
+      <p><strong>Notable coasters:</strong> Mamba, Prowler, Patriot.</p>
+      <p><strong>Best for:</strong> Regional road trips and visitors seeking a mix of thrill rides and classic park entertainment.</p>
+    </article>
+
+    <article class="park">
+      <h3>Which Park Should You Choose?</h3>
+      <p>Every park offers a different experience. Your ideal destination depends on your favorite coaster styles, travel distance, budget, and the people joining your trip.</p>
+      <p>For maximum coaster intensity, consider Cedar Point. For a balanced group outing, Kings Island is a strong option. For wooden coaster fans, Holiday World deserves special attention.</p>
+      <p><a href="trip-planner.html">Build Your Coaster Road Trip</a></p>
+    </article>
+  </section>
+
+  <section class="guide">
+    <h2>Tips for Choosing an Amusement Park</h2>
+    <ul>
+      <li><strong>Consider travel distance:</strong> A nearby park may offer better value for a short weekend trip.</li>
+      <li><strong>Compare ride lineups:</strong> Choose a destination with several attractions that interest your group.</li>
+      <li><strong>Check operating calendars:</strong> Seasonal schedules can affect when parks are open.</li>
+      <li><strong>Review ride requirements:</strong> Height and safety restrictions vary between attractions.</li>
+      <li><strong>Plan for crowds:</strong> Weekends, holidays, and special events can influence wait times.</li>
+    </ul>
+    <p>Before visiting, confirm current information on the official website of your chosen park. Our content is intended as a general educational guide rather than a source of live operating information.</p>
+  </section>
+
+  <section>
+    <h2>Make Your Next Park Visit Count</h2>
+    <p>Once you choose a destination, explore our <a href="best-coasters.html">Best Coasters in the Midwest</a> guide to prioritize attractions. Then use the <a href="trip-planner.html">Roller Coaster Trip Planner</a> to organize your travel days and budget.</p>
+    <p>With a little preparation, even a short weekend getaway can become a memorable coaster adventure.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Heartland Thrill Co. | Midwest Coaster Guide</p>
+  <p>Discover more parks. Experience more thrills.</p>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+</footer>
+
+</body>
+</html>
