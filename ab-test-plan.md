@@ -32,7 +32,7 @@ This change may encourage more visitors to explore the trip planner because it m
 **Alternative Hypothesis (H₁):** Version B has a higher conversion rate than Version A.
 ## 3. AI Model, Persona, Prompt, and Random Assignment
 
-**AI Model:** GPT-6. The same model and settings will be used for all 100 trials, with the exact model version and settings recorded before testing.
+**AI Model:** GPT-5-mini. The same model and settings will be used for all 100 trials, with the exact model version and settings recorded before testing.
 
 **Visitor Persona:** A Midwest resident who enjoys roller coasters and is considering planning a trip to an amusement park.
 
